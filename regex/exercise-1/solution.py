@@ -75,7 +75,7 @@ def main(leaked_email: str) -> None:
 
 
 if __name__ == "__main__":
-    input_path = r"C:\Users\MilesHoar-Hewitt\Documents\python\python-fundamentals\regex\exercise-1\input.txt"
+    input_path = r".\regex\exercise-1\input.txt"
     with open(input_path, "r") as file:
         raw_input = file.read()
     
