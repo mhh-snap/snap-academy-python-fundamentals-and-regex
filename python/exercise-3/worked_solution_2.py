@@ -112,7 +112,7 @@ def main(tree: list[list[dict]]):
 
 if __name__ == "__main__":
 
-    file_path = r"C:\Users\MilesHoar-Hewitt\Documents\python\python-fundamentals\exercise-3\input.txt"
+    file_path = r".\python\exercise-3\input.txt"
     
     with open(file_path) as input_file:
         raw_array = [row.strip().split(" ") for row in input_file.readlines() if row != "\n"]
