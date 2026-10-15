@@ -62,7 +62,7 @@ def main(puzzle_input: list[int]) -> None:
     print(f"largest_window: {"".join(str(num) for num in largest_window)}, product: {prod(largest_window)}")
 
 if __name__ == "__main__":
-    file_path = r"C:\Users\MilesHoar-Hewitt\Documents\python\python-fundamentals\exercise-4\input.txt"
+    file_path = r".\python\exercise-4\input.txt"
     with open(file_path, "r") as file:
         raw_input = file.read()
     

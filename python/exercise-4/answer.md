@@ -1,0 +1,3 @@
+# Expected Output
+- **Thirteen digits:** `5576689664895`
+- **Product:** `23514624000`

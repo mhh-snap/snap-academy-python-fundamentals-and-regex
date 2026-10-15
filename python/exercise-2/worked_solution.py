@@ -47,7 +47,7 @@ def main(text: str):
     print(decoded_message)
 
 if __name__ == "__main__":
-    input_file = r"C:\Users\MilesHoar-Hewitt\Documents\python\python-fundamentals\exercise-2\input.txt"
+    input_file = r".\python\exercise-2\input.txt"
     with open(input_file, "r") as file:
         raw_file = file.read()
 

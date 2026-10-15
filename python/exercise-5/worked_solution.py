@@ -60,7 +60,7 @@ def main(puzzle_input: list[list[str]]) -> None:
         step_count += 1
 
 if __name__ == "__main__":
-    input_path = r"C:\Users\MilesHoar-Hewitt\Documents\python\python-fundamentals\exercise-5\input.txt"
+    input_path = r".\python\exercise-5\input.txt"
     with open(input_path, "r") as file:
         raw_input = file.read()
 

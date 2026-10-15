@@ -2,6 +2,7 @@ def get_first_missing_pos(int_list: list[int]) -> int:
     """
     Function to calculate the smallest positive integer present in
     a list.
+    
     :param int_list: List of integers.
     :type int_list: list[int]
     :return: Least positive integer not included in int_list.
@@ -21,12 +22,12 @@ def get_first_missing_pos(int_list: list[int]) -> int:
 def main(puzzle_input: list[int]) -> None:
     """
     :param puzzle_input: List of integers.
-    :type int_list: list[int]
+    :type puzzle_input: list[int]
     """
     print(get_first_missing_pos(int_list=puzzle_input))
 
 if __name__ == "__main__":
-    input_path = r"C:\Users\MilesHoar-Hewitt\Documents\python\python-fundamentals\exercise-1\input.txt"
+    input_path = r".\python\exercise-1\input.txt"
     with open(input_path, "r") as file:
         raw_input = file.read()
     
