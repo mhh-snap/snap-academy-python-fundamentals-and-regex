@@ -10,7 +10,7 @@ def main(card_numbers: str) -> None:
 
 if __name__ == "__main__":
 
-    file_path = r"C:\Users\MilesHoar-Hewitt\Documents\python\python-fundamentals\regex\exercise-2\input.txt"
+    file_path = r".\regex\exercise-2\input.txt"
     with open(file_path, "r") as file:
         file_data = file.read().strip().replace(",", " ")
 
